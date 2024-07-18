@@ -1,0 +1,176 @@
+/* Global styles */
+.expense-container {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    grid-area: main;
+    /* overflow-y: auto; Ensure only one scrollbar */
+    color: rgba(255, 255, 255, 0.95);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .header1 {
+    background-color: #f78989;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .header1 h1 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .header1 p {
+    margin: 5px 0 0;
+    color: #fff;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  
+  .summary-card {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .summary-card h2 {
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+  }
+  
+  .summary-card p {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .summary-card .icon-wrapper {
+    background-color: #000;
+    border-radius: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .summary-card .icon-wrapper svg {
+    color: #fff;
+  }
+  
+  .total-expenses .icon-wrapper {
+    background-color: #f00c1f;
+  }
+  
+  .yearly-expenses .icon-wrapper {
+    background-color: #ff8c00;
+  }
+  
+  .monthly-expenses .icon-wrapper {
+    background-color: #1c9cec;
+  }
+  
+  .weekly-expenses .icon-wrapper {
+    background-color: #b3e459;
+  }
+  
+  .filter-container {
+    margin-top: 40px;
+    color: #333;
+  }
+  
+  .filter-button {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -5px;
+  }
+  
+  .filter-button select {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f78989;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  table td {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  table a {
+    color: #1c9cec;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  table a:hover {
+    text-decoration: underline;
+  }
+  
+  table button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  table button:hover {
+    color: #f00c1f;
+  }
+  
+  .approve-icon,
+  .reject-icon {
+    font-size: 1.5em;
+  }
+  
+  
